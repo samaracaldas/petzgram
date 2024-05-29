@@ -23,7 +23,7 @@ require("./config/db.js");
 
 
 // routes
-const router = require("./routes/Router");
+const router = require("./routes/Router.js");
 
 app.use(router);
 
