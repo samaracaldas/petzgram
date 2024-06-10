@@ -3,7 +3,7 @@ const {Schema} = mongoose
 
 const photoSchema = new Schema (
     {
-        image: Sring,
+        image: String,
         title: String,
         likes: Array,
         comments: Array,
